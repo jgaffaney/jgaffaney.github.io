@@ -1,1 +1,56 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+header {
+    color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    line-height: 2px;
+}
+
+.header-sub {
+    font-size: 75%;
+}
+body {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8a6fa73f-8281-4986-9d1f-b7151941778b/d4djmy3-b3562385-3a78-4a1c-88f0-1436b90efaae.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhhNmZhNzNmLTgyODEtNDk4Ni05ZDFmLWI3MTUxOTQxNzc4YlwvZDRkam15My1iMzU2MjM4NS0zYTc4LTRhMWMtODhmMC0xNDM2YjkwZWZhYWUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Kt4ldxSwKse_zK5xJvli2XzuJq53nFfeyNeYKVU2Dlc");    
+    margin: 10% 10%;
+    width: 75%;
+}
+
+.section-entry {
+    color: #3d4045;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: rgba(0, 0, 0, .2);
+    padding-left: 25px;
+}
+
+.experience-title {
+    width: 66%;
+    float: left;
+}
+
+.experience-date {
+    width: 34%;
+    text-align: right;
+    float: left;
+}
+
+.experience-item {
+    width: 100%;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
