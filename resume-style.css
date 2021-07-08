@@ -9,7 +9,7 @@ header {
     line-height: 2px;
 }
 
-.header-sub {
+header p {
     font-size: 75%;
 }
 body {
